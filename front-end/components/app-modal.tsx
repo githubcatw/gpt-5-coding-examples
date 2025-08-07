@@ -31,7 +31,7 @@ export function AppModal({ active, open, onOpenChange }: AppModalProps) {
             <div className="flex w-full flex-col md:w-2/3">
               <div className="flex-1 w-full rounded border">
                 <iframe
-                  src={`gpt-5-coding-examples/${active.iframeUrl}/`}
+                  src={`${active.iframeUrl}/`}
                   title={`${active.title} demo`}
                   className="h-[80vh] w-full md:h-full overflow-scroll"
                   allow={iframePermissions}
