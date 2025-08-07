@@ -22,6 +22,7 @@ const slugs = detectPublicSlugs();
 
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: '/gpt-5-coding-examples',
   async rewrites() {
     // Allow pretty URLs in dev by serving /slug -> /slug/index.html
     return slugs.map((slug) => ({
