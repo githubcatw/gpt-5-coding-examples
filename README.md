@@ -1,3 +1,9 @@
+This is a last-minute leak (though I guess this will be more of a teaser then) of GPT-5's coding capabilities from OpenAI. I tried to fix the site, but it's still a bit broken.
+
+To view a demo, open the frame in a new tab and add `gpt-5-coding-examples/` after `githubcatw.github.io/`.
+
+As I'm writing this GPT-5 will be officially announced in around 8 minutes.
+
 # GPT-5 Coding Examples
 
 This repository contains a curated collection of demo applications **generated entirely in a single [GPT-5](https://platform.openai.com/docs/models/gpt-5) prompt**, without writing any code by hand.
@@ -8,7 +14,7 @@ These demos were selected to showcase the model’s strengths in coding — espe
 
 You can explore the demos directly here:
 
-**▶ [Browse the examples](http://openai.github.io/gpt-5-coding-examples/)**
+**▶ [Browse the examples](http://githubcatw.github.io/gpt-5-coding-examples/)**
 
 From there, you can view any example, see the zero-shot prompt that created the code, and remix it for your own ideas.
 
